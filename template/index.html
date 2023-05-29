@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type=text/css href="{{ url_for('static', filename='style.css') }}">
+    <title>Credit Card</title>
+</head>
+<body>
+    <form action="{{url_for('predict')}}" method="post" class="form-container">
+        <label for="gender">
+          <span>Gender:</span>
+          <select name="gender" id="gender">
+            <option value="" disabled selected>Select</option>
+            <option value="1">Male</option>
+            <option value="0">Female</option>
+          </select>
+        </label><br>
+        
+        <label for="age">
+          <span>Age:</span>
+          <input type="number" name="age" id="age">
+        </label><br>
+
+        <label for="debt">
+          <span>Debt:</span>
+          <input type="number" name="debt" id="debt">
+        </label><br>
+        
+        <label for="married">
+          <span>Married:</span>
+          <select name="married" id="married">
+            <option value="" disabled selected>Select</option>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+          </select>
+        </label><br>
+
+        <label for="bankCustomer">
+          <span>Bank Customer:</span>
+          <select name="bankCustomer" id="bankCustomer">
+            <option value="" disabled selected>Select</option>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+          </select>
+        </label><br>
+
+        <label for="industry">
+          <span>Industry:</span>
+          <select name="industry" id="industry">
+            <option value="" disabled selected>Select</option>
+            <option value="0">Communication Services</option>
+            <option value="1">Consumer Discretionary</option>
+            <option value="2">ConsumerStaples</option>
+            <option value="3">Education</option>
+            <option value="4">Energy</option>
+            <option value="5">Financials</option>
+            <option value="6">Healthcare</option>
+            <option value="7">Industrials</option>
+            <option value="8">InformationTechnology</option>
+            <option value="9">Materials</option>
+            <option value="10">Real Estate</option>
+            <option value="11">Research</option>
+            <option value="12">Transport</option>
+            <option value="13">Utilities</option>
+          </select>
+        </label><br>
+
+        <label for="ethinicity">
+          <span>Ethnicity:</span>
+          <select name="ethnicity" id="ethnicity">
+            <option value="" disabled selected>Select</option>
+            <option value="0">Asian</option>
+            <option value="1">Black</option>
+            <option value="2">Latino</option>
+            <option value="3">Other</option>
+            <option value="4">White</option>  
+          </select>
+        </label><br>
+        
+        <label for="yearsEmployed">
+          <span>Years Employed:</span>
+          <input type="number" name="yearsEmployed" id="yearsEmployed">
+        </label><br>
+        
+        <label for="priorDefault">
+          <span>Prior Default:</span>
+          <select name="priorDefault" id="priorDefault">
+            <option value="" disabled selected>Select</option>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+          </select>
+        </label><br>
+        
+        <label for="employed">
+          <span>Employed:</span>
+          <select name="employed" id="employed">
+            <option value="" disabled selected>Select </option>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+          </select>
+        </label><br>
+        
+        <label for="creditScore">
+          <span>Credit Score:</span>
+          <input type="number" name="creditScore" id="creditScore">
+        </label><br>
+        
+        <label for="driversLicense">
+          <span>Driver's License:</span>
+          <select name="driversLicense" id="driversLicense">
+            <option value="" disabled selected>Select</option>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+          </select>
+        </label><br>
+
+        <label for="citizen">
+          <span>Citizen:</span>
+          <select name="citizen" id="citizen">
+            <option value="" disabled selected>Select</option>
+            <option value="0">By Birth</option>
+            <option value="1">By Other Means</option>
+            <option value="2">Temporary</option>
+          </select>
+        </label><br>
+        
+        <label for="zipCode">
+          <span>Zip Code:</span>
+          <input type="text" name="zipCode" id="zipCode">
+        </label><br>
+        
+        <label for="income">
+          <span>Income:</span>
+          <input type="number" name="income" id="income">
+        </label><br>
+        <button type="submit" class="submit">Predict</button>
+    </form>
+</body>
+</html>

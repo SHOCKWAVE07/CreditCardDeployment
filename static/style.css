@@ -1,0 +1,55 @@
+/* styles.css */
+.form-container {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #85c27e;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-container label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-container label > span {
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.form-container select,
+.form-container input[type="number"],
+.form-container input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.form-container .submit {
+  background-color: #7fed54;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+} 
+
+.form-container .submit:hover {
+  background-color: #74d4bf;
+}
+
+/* Additional styling */
+body {
+  background-color: #f4adad;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+

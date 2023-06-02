@@ -1,10 +1,10 @@
 
 from flask import Flask, render_template, request
-import pickle
+from tensorflow.keras.models import load_model
 import pandas as pd
 
 app = Flask(__name__, template_folder='template')
-model = pickle.load(open('model.pkl', 'rb'))
+model = load_model('model.h5')
 
 @app.route('/')
 def index():

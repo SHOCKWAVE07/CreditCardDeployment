@@ -28,43 +28,43 @@ Accuracy : 88.4% which is best on this particular dataset on Kaggle
 
 1.User Registration and Authentication:
 
-*Users can register and create their accounts securely.
-*Login functionality ensures secure access to personal information.
+* Users can register and create their accounts securely.
+* Login functionality ensures secure access to personal information.
 
 2.Credit Card Application:
 
-*Users can submit credit card applications by providing relevant personal and financial details.
-*The application form is user-friendly and intuitive, guiding users through the process.
+* Users can submit credit card applications by providing relevant personal and financial details.
+* The application form is user-friendly and intuitive, guiding users through the process.
 
 3.Neural Network Model:
 
-*A self-developed Artificial Neural Network (ANN) model is used for credit card approval prediction.
-*The ANN model is trained using historical credit card application data to make accurate predictions.
+* A self-developed Artificial Neural Network (ANN) model is used for credit card approval prediction.
+* The ANN model is trained using historical credit card application data to make accurate predictions.
 
 4.Instant Approval Decision:
 
-*The ANN model evaluates the credit card application in real-time.
-*Users receive an instant decision on whether their application is approved or rejected.
+* The ANN model evaluates the credit card application in real-time.
+* Users receive an instant decision on whether their application is approved or rejected.
 
 5.Application Tracking:
 
-*Users can track the progress of their credit card application.
-*Real-time updates inform users about the current status of their application.
+* Users can track the progress of their credit card application.
+* Real-time updates inform users about the current status of their application.
 
 6.Secure Data Handling:
 
-*All user data and credit card application details are securely stored and encrypted.
-*Data privacy and protection measures are implemented to ensure the confidentiality of sensitive information.
+* All user data and credit card application details are securely stored and encrypted.
+* Data privacy and protection measures are implemented to ensure the confidentiality of sensitive information.
 
 7.User-Friendly Interface:
 
-*The website features an intuitive and responsive user interface.
-*Jinja templating engine enables dynamic rendering of web pages, providing a smooth user experience.
+* The website features an intuitive and responsive user interface.
+* Jinja templating engine enables dynamic rendering of web pages, providing a smooth user experience.
 
 8.Scalability and Performance:
 
-*The application is designed to handle a large number of concurrent users.
-*Efficient algorithms and optimized code ensure fast response times.
+* The application is designed to handle a large number of concurrent users.
+* Efficient algorithms and optimized code ensure fast response times.
 
 ##Technical Stack:
 

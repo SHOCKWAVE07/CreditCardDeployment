@@ -1,6 +1,6 @@
-# Credit Card Approval Model
+# Flask Credit Card Approval Website with Artificial Neural Network (ANN) Model
 
-This project focuses on building a credit card approval model. The objective is to develop a machine-learning model that can predict whether a credit card application will be approved or not, based on various input features.
+The Flask Credit Card Approval Website is a powerful online platform designed to automate the credit card approval process using an Artificial Neural Network (ANN) model. Developed with Flask, Python, Jinja, Keras, and a self-developed ANN model, this application provides users with a seamless and efficient way to apply for credit cards and receive instant decisions.
 
 ## Live-link https://creditcarddeployment.onrender.com
 
@@ -23,4 +23,55 @@ To run this project locally, follow these steps:
 
 Accuracy : 88.4% which is best on this particular dataset on Kaggle
 ![Results](CreditCardApprovalResults.png)
+
+## Key Features:
+
+1.User Registration and Authentication:
+
+*Users can register and create their accounts securely.
+*Login functionality ensures secure access to personal information.
+
+2.Credit Card Application:
+
+*Users can submit credit card applications by providing relevant personal and financial details.
+*The application form is user-friendly and intuitive, guiding users through the process.
+
+3.Neural Network Model:
+
+*A self-developed Artificial Neural Network (ANN) model is used for credit card approval prediction.
+*The ANN model is trained using historical credit card application data to make accurate predictions.
+
+4.Instant Approval Decision:
+
+*The ANN model evaluates the credit card application in real-time.
+*Users receive an instant decision on whether their application is approved or rejected.
+
+5.Application Tracking:
+
+*Users can track the progress of their credit card application.
+*Real-time updates inform users about the current status of their application.
+
+6.Secure Data Handling:
+
+*All user data and credit card application details are securely stored and encrypted.
+*Data privacy and protection measures are implemented to ensure the confidentiality of sensitive information.
+
+7.User-Friendly Interface:
+
+*The website features an intuitive and responsive user interface.
+*Jinja templating engine enables dynamic rendering of web pages, providing a smooth user experience.
+
+8.Scalability and Performance:
+
+*The application is designed to handle a large number of concurrent users.
+*Efficient algorithms and optimized code ensure fast response times.
+
+##Technical Stack:
+
+Flask: A lightweight web framework for Python.
+Python: The programming language used for the back-end logic and ANN model development.
+Jinja: A templating engine for rendering dynamic web pages.
+Keras: A high-level neural networks API used to build and train the ANN model.
+
+The Flask Credit Card Approval Website leverages the power of Artificial Neural Networks to streamline the credit card approval process. With its user-friendly interface, secure data handling, and real-time decision-making capabilities, it offers a convenient and efficient solution for users seeking credit cards. By automating the approval process, it reduces manual effort and delivers quick decisions, improving the overall user experience and satisfaction.
 

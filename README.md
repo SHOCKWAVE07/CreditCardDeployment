@@ -66,7 +66,7 @@ Accuracy : 88.4% which is best on this particular dataset on Kaggle
 * The application is designed to handle a large number of concurrent users.
 * Efficient algorithms and optimized code ensure fast response times.
 
-##Technical Stack:
+## Technical Stack:
 
 * Flask: A lightweight web framework for Python.
 * Python: The programming language used for the back-end logic and ANN model development.

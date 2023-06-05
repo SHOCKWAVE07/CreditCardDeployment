@@ -19,7 +19,7 @@ To run this project locally, follow these steps:
 * Install the required dependencies: pip install -r requirements.txt
 * Set up the necessary environment variables: (List any specific environment variables if applicable)
 
-# Results
+## Results
 
 Accuracy : 88.4% which is best on this particular dataset on Kaggle
 ![Results](CreditCardApprovalResults.png)
@@ -68,10 +68,10 @@ Accuracy : 88.4% which is best on this particular dataset on Kaggle
 
 ##Technical Stack:
 
-Flask: A lightweight web framework for Python.
-Python: The programming language used for the back-end logic and ANN model development.
-Jinja: A templating engine for rendering dynamic web pages.
-Keras: A high-level neural networks API used to build and train the ANN model.
+* Flask: A lightweight web framework for Python.
+* Python: The programming language used for the back-end logic and ANN model development.
+* Jinja: A templating engine for rendering dynamic web pages.
+* Keras: A high-level neural networks API used to build and train the ANN model.
 
 The Flask Credit Card Approval Website leverages the power of Artificial Neural Networks to streamline the credit card approval process. With its user-friendly interface, secure data handling, and real-time decision-making capabilities, it offers a convenient and efficient solution for users seeking credit cards. By automating the approval process, it reduces manual effort and delivers quick decisions, improving the overall user experience and satisfaction.
 

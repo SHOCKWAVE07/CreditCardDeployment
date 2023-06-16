@@ -1,8 +1,8 @@
 /* styles.css */
 .form-container {
   width: 400px;
-  margin: 0 auto;
-  background-color: #85c27e;
+  margin: 20px auto;
+  background-color: rgb(173, 244, 244);
   padding: 20px;
   border-radius: 5px;
 }

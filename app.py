@@ -39,12 +39,8 @@ def predict():
     if prediction[0][0] >=0.5:
         output="Rejected"
     else:
-        output="Accepted"
-
-    print(prediction)
-    
+        output="Accepted"  
     prediction_text = f'Your application would be {output}'
-
     return render_template('index.html', prediction_text=prediction_text)
 
 if __name__ == "__main__":
